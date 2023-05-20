@@ -1,10 +1,14 @@
 import "./App.css";
-import ProfileViewer from "./Components/Profile";
+import PackagingList from "./Components/PackagingList";
 
 function App() {
   return (
     <>
-      <ProfileViewer/>
+      <PackagingList item={"apple"} isPacked={true} />
+      <PackagingList item={"water bottle"} isPacked={false} />
+      <PackagingList item={"water melon"} isPacked={true} />
+      <PackagingList item={"juices"} isPacked={true} />
+      <PackagingList item={"bike cover"} isPacked={false} />
     </>
   );
 }
