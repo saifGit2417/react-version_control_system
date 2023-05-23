@@ -1,16 +1,11 @@
-import "./App.css";
-import PackagingList from "./Components/PackagingList";
-
-function App() {
+import ArrayUseState from "./Components/ArrayUseState"
+import './App.css'
+const App = () => {
   return (
-    <>
-      <PackagingList item={"apple"} isPacked={true} />
-      <PackagingList item={"water bottle"} isPacked={false} />
-      <PackagingList item={"water melon"} isPacked={true} />
-      <PackagingList item={"juices"} isPacked={true} />
-      <PackagingList item={"bike cover"} isPacked={false} />
-    </>
-  );
+    <div>
+      <ArrayUseState/>
+    </div>
+  )
 }
 
-export default App;
+export default App
