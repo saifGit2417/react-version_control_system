@@ -1,11 +1,11 @@
-import './App.css'
-import ArrayUseStateProblem1 from './Components/ArrayUseStateProblem1'
+import "./App.css";
+import ArrayUseStateProblem2 from "./Components/ArrayUseStateProblem2";
 const App = () => {
   return (
     <div>
-<ArrayUseStateProblem1/>
+      <ArrayUseStateProblem2 />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
