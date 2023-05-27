@@ -1,10 +1,9 @@
-import "./App.css";
-import ArrayUseStateProblem2 from "./Components/ArrayUseStateProblem2";
+// import "./App.css";
+import ChoosingStateStructure from "./Components/ChoosingStateStructure";
 const App = () => {
   return (
     <div>
-      <h1>maintain streak</h1>
-      <ArrayUseStateProblem2 />
+      <ChoosingStateStructure/>
     </div>
   );
 };
