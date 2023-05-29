@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div>
       <Main />
+      <h1>this is tutorial</h1>
     </div>
   );
 };
